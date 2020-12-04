@@ -16,7 +16,7 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 import { Overlay, ThemeProvider } from 'react-native-elements'
-//import { Button as RootButton } from '@root/shared'
+import { Button as RootButton } from '@unhandled_exception/shared'
 
 declare const global: { HermesInternal: null | {} };
 

@@ -1,6 +1,6 @@
 {
   "name": "@unhandled_exception/shared",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Now I’m the model of a modern major general / The venerated Virginian veteran whose men are all / Lining up, to put me up on a pedestal / Writin’ letters to relatives / Embellishin’ my elegance and eloquence / But the elephant is in the room / The truth is in ya face when ya hear the British cannons go / BOOM",
   "keywords": [],
   "author": "Tiago Taquelim <tiago.taquelim.ferreira@gmail.com>",
@@ -9,19 +9,29 @@
   "publishConfig": {
     "access": "public"
   },
-  "main": "lib/shared.js",
+  "main": "lib/index.js",
   "directories": {
-    "lib": "lib",
+    "lib": "src",
     "test": "__tests__"
   },
   "files": [
-    "lib"
+    "src"
   ],
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "build": "babel ./src --out-dir ./lib --source-maps --copy-files"
   },
   "devDependencies": {
     "react": "^17.0.1"
   },
-  "gitHead": "5cb00976e5837fcf4bf88cb14eeafc8e7bb613d1"
+  "gitHead": "5cb00976e5837fcf4bf88cb14eeafc8e7bb613d1",
+  "dependencies": {
+    "@babel/cli": "^7.12.8",
+    "@babel/core": "^7.12.9",
+    "@babel/preset-env": "^7.12.7",
+    "@babel/preset-react": "^7.12.7",
+    "@types/react": "^17.0.0",
+    "babel-loader": "^8.2.2",
+    "react-dom": "^17.0.1",
+    "typescript": "^4.1.2"
+  }
 }

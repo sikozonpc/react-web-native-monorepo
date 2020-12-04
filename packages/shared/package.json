@@ -1,6 +1,6 @@
 {
-  "name": "shared",
-  "version": "1.0.1",
+  "name": "@unhandled_exception/shared",
+  "version": "1.0.2",
   "description": "Now I’m the model of a modern major general / The venerated Virginian veteran whose men are all / Lining up, to put me up on a pedestal / Writin’ letters to relatives / Embellishin’ my elegance and eloquence / But the elephant is in the room / The truth is in ya face when ya hear the British cannons go / BOOM",
   "keywords": [],
   "author": "Tiago Taquelim <tiago.taquelim.ferreira@gmail.com>",
@@ -10,7 +10,6 @@
     "lib": "lib",
     "test": "__tests__"
   },
-  "private": false,
   "files": [
     "lib"
   ],
@@ -20,5 +19,5 @@
   "devDependencies": {
     "react": "^17.0.1"
   },
-  "gitHead": "fa727ca4079b366c65ee8e51d4ec79b9fef085bf"
+  "gitHead": "ad4dc54039f19c7110ad96bd6a475681e62a7aff"
 }

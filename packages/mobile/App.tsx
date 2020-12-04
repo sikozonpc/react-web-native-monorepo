@@ -26,7 +26,7 @@ const App = () => {
 
   const toggleOverlay = () => {
     setVisible(!visible)
-  };
+  }
 
   return (
     <ThemeProvider>

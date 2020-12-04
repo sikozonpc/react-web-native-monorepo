@@ -1,6 +1,6 @@
 {
   "name": "mobile",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "private": true,
   "scripts": {
     "android": "react-native run-android",
@@ -10,7 +10,7 @@
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
   },
   "dependencies": {
-    "@unhandled_exception/shared": "^1.0.7",
+    "@unhandled_exception/shared": "^1.0.8",
     "react": "16.13.1",
     "react-native": "0.63.3",
     "react-native-elements": "^3.0.0-alpha.1",
